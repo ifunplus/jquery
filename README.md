@@ -40,4 +40,37 @@ $('div').append('<p>22222222</p>')';
 clone() 复制节点 	$('div').clone().append(oSpan);   
 
 ## 8 工具方法  
-1 原型上的方法  
+1 构造函数上的方法  $.each([],function(){})  $.trim($('div').attr('class'))   
+```  
+function $(){
+}
+
+$.each = function(){ //构造函数上的方法 $.each();
+}
+
+$.prototype.each = function(){}; //原型下的方法 $('div').each();
+```  
+
+2 原型上的方法  $('div').each(function(){}) 
+```  
+$(function(){
+	//$('li').css('background','red');  
+	$('li').each(function(index, elements){ //索引 获取的元素
+		$(elements).html(index);
+	});
+ 
+});
+
+
+/*
+window.onload = function(){
+	var ali = document.getElementsByTagName('li');
+
+	$.each(ali, function(index,elements)){  //可以用来操作数组
+		elements.innerHTML = index;
+	});
+}
+*/
+```  
+
+## 9 事件操作
