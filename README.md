@@ -84,5 +84,12 @@ window.onload = function(){
 
 ## 11 插件和组件  
 插件：在JQ源码上进行扩展，一个个被做好的应用  
+```  
+(function($)(
+//$.fn 扩展插件的方法
+	$.fn.zhangxue_chajian1 = function(){
+	
+	}
+))(jQuery);
 组件：jq官方提供的功能效果和UI样式  
 
