@@ -82,3 +82,7 @@ window.onload = function(){
 常见效果  .fadeIn() .fadeOut() .slideDown() .slideUp()  
 复杂效果  .animate() .stop()   
 
+## 11 插件和组件  
+插件：在JQ源码上进行扩展，一个个被做好的应用  
+组件：jq官方提供的功能效果和UI样式  
+
