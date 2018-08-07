@@ -73,4 +73,12 @@ window.onload = function(){
 */
 ```  
 
-## 9 事件操作
+## 9 事件操作  
+1 独立事件 click mouseover  
+2 通用事件 bind unbind one  
+3 toggle(function(){},function(){},function(){});里面可以循环切换多个函数  
+
+## 10 运动特效  
+常见效果  .fadeIn() .fadeOut() .slideDown() .slideUp()  
+复杂效果  .animate() .stop()   
+
